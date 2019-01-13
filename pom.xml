@@ -64,12 +64,6 @@
     </pluginManagement>
   </build>
   <distributionManagement>
-   <servers>
-        <server>
-         <id>admin</id>
-          <username>admin</username>
-          <password>admin123</password>
-         </server>
     <repository>
       <id>admin</id>
       <name>Releases</name>
