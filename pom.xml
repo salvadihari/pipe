@@ -63,14 +63,13 @@
       </plugins>
     </pluginManagement>
   </build>
-  <servers>
+  <distributionManagement>
+   <servers>
         <server>
          <id>admin</id>
           <username>admin</username>
           <password>admin123</password>
          </server>
- </servers>
-<distributionManagement>
     <repository>
       <id>admin</id>
       <name>Releases</name>
@@ -83,4 +82,3 @@
     </snapshotRepository>
   </distributionManagement>
 </project>
-
