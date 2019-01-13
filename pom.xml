@@ -62,6 +62,13 @@
       </plugins>
     </pluginManagement>
   </build>
+  <servers>
+        <server>
+         <id>admin</id>
+          <username>admin</username>
+          <password>admin123</password>
+         </server>
+ </servers>
 <distributionManagement>
     <repository>
       <id>admin</id>
