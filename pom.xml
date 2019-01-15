@@ -65,7 +65,7 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>main-hps</id>
+      <id>admin</id>
       <name>Release</name>
       <url>http://http://localhost:8081/repository/main-hps/</url>
     </repository>
