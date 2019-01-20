@@ -67,7 +67,7 @@
     <repository>
       <id>admin</id>
       <name>Release</name>
-      <url>http://http://localhost:8081/repository/main-hps/</url>
+      <url>http://http://localhost:8081/repository/pipe-hps/</url>
     </repository>
     <snapshotRepository>
       <id>admin</id>
