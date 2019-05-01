@@ -65,12 +65,12 @@
   </build>
   <distributionManagement>
     <repository>
-      <id>admin</id>
+      <id>hps</id>
       <name>Release</name>
       <url>http://localhost:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>admin</id>
+      <id>hps</id>
       <name>Snapshot</name>
       <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
