@@ -3,6 +3,7 @@ pipeline {
     node {label 'slave'}
   }
   environment{
+    BUILD_TIME=sh(script: 'date"+%y%m%d-%H%M%S"', returnStdout:true).trim()
     REPO_URL="https://github.com/salvadihari/pipe.git"
   }
   
