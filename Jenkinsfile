@@ -8,10 +8,8 @@ pipeline {
   
   
   parameters{
-    string (name: 'DEPLOY_ENV', defaultValue: 'TESTING', 'Dev','Preprod','Prod' description: 'The target environment')
-    string (name: 'DEPLOY_ENV', defaultValue: 'Dev' description: 'The target environment')
-    string (name: 'DEPLOY_ENV', defaultValue: 'Preprod' description: 'The target environment')
-    string (name: 'DEPLOY_ENV', defaultValue: 'Prod' description: 'The target environment')
+    string (name: 'DEPLOY_ENV', defaultValue: 'TESTING' description: 'The target environment')
+    
   }
   
   stages {
