@@ -7,10 +7,10 @@ pipeline {
   }
   
   
-  parameters{
+  parameters([
        choice( name: 'PARAMETER_01', choices: ['TESTING', 'STAGING', 'PRODUCTION'], description: 'The target environment')
                            
-  }
+  ])
   
   stages {
     stage('SCM Checkout'){  
