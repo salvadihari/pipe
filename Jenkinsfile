@@ -8,9 +8,8 @@ pipeline {
   
   
   parameters{
-    parameters([
        choice( choices: ['ONE', 'TWO'], name: 'PARAMETER_01')
-       ])                     
+                           
   }
   
   stages {
