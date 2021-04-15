@@ -8,7 +8,7 @@ pipeline {
   
   
   parameters{
-       choice( choices: ['ONE', 'TWO'], name: 'PARAMETER_01')
+       choice( name: 'PARAMETER_01', choices: ['TESTING', 'STAGING', 'PRODUCTION'], description: 'The target environment')
                            
   }
   
