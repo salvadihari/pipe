@@ -18,9 +18,6 @@ pipeline {
     stage('SCM Checkout'){  
       steps{
         sh 'java -version'
-      }
-    
-      steps {
         sh 'echo $PWD'
         echo "pwd=${Work_dir}"
       }
