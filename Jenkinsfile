@@ -4,7 +4,6 @@ pipeline {
   }
   environment{
     BUILD_TIME=sh(script: 'date "+%y%m%d-%H%M%S"', returnStdout:true).trim()
-    Work_dir=sh(script: 'PWD', returnStdout:true).trim()
     REPO_URL="https://github.com/salvadihari/pipe.git"
   }
   
@@ -18,8 +17,8 @@ pipeline {
     stage('SCM Checkout'){  
       steps{
         sh 'java -version'
-        sh 'echo $PWD'
-        echo "pwd=${Work_dir}"
+        sh 'env'
+        sh 'echo $Work_dir'
       }
     } 
   }
