@@ -8,8 +8,9 @@ pipeline {
   
   
   parameters{
-    choices (name: 'DEPLOY_ENV', defaultValue: 'TESTING', 'Dev','Prod', description: 'The target environment')
-    
+    parameters([
+       choice( choices: ['ONE', 'TWO'], name: 'PARAMETER_01')
+                            
   }
   
   stages {
