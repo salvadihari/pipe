@@ -12,10 +12,7 @@ pipeline {
   }
   
   stages {
-    stage('SCM Checkout'){
-      git branch: "${BRANCH_NAME}",
-        url: "${REPO_URL}"
-      
+    stage('SCM Checkout'){  
       steps{
         echo java -version
       }
