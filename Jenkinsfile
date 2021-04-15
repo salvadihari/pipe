@@ -7,9 +7,9 @@ pipeline {
   }
   
   
-  parameters([
+  parameters{
        choice( name: 'Deploy_Env', choices: ['TESTING', 'STAGING', 'PRODUCTION'], description: 'The target environment')
-        ])                   
+  }                   
   
   
   stages {
