@@ -8,7 +8,7 @@ pipeline {
   
   
   parameters{
-    string (name: 'DEPLOY_ENV', defaultValue: 'TESTING', 'Dev','Prod', description: 'The target environment')
+    choices (name: 'DEPLOY_ENV', defaultValue: 'TESTING', 'Dev','Prod', description: 'The target environment')
     
   }
   
