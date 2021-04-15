@@ -14,7 +14,7 @@ pipeline {
   stages {
     stage('SCM Checkout'){  
       steps{
-        echo java -version
+        sh 'java -version'
       }
     }
   }
