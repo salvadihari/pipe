@@ -19,5 +19,9 @@ pipeline {
         sh 'java -version'
       }
     }
+   steps {
+        sh 'env'
+        sh 'echo $PWD'
+    } 
   }
 }
