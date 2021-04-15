@@ -17,8 +17,7 @@ pipeline {
     stage('SCM Checkout'){  
       steps{
         sh 'java -version'
-        sh 'env'
-        sh 'echo $Work_dir'
+        sh 'echo $HUDSON_HOME'
       }
     } 
   }
